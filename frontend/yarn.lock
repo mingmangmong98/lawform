@@ -205,9 +205,9 @@
     "global-agent" "^3.0.0"
 
 "@electron/node-gyp@git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2":
-  "integrity" "sha512-OhO6fwqpetMO1vWI3+J8mb3a4s4A405tgKoUCJsgd4nyQDdFh0VvZm+gj/Cc70iRLQoIYUfSaAgYSVwmLsQHig=="
-  "resolved" "git+ssh://git@github.com/electron/node-gyp.git"
-  "version" "10.2.0-electron.2"
+  "integrity" "sha512-vrnkDg+mh6ix9PISDcjMwwyxaLI4qU6UOM8anOI/st4smh0Y5kqsoRpwl8vwL4zHjKUU/zZF8tTOOrlhp4u0SQ=="
+  "resolved" "git+ssh://git@github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2"
+  "version" "10.2.0-electron.1"
   dependencies:
     "env-paths" "^2.2.0"
     "exponential-backoff" "^3.1.1"
@@ -2090,6 +2090,11 @@
   "version" "5.2.0"
   dependencies:
     "pump" "^3.0.0"
+
+"git-cz@^4.9.0":
+  "integrity" "sha512-cSRL8IIOXU7UFLdbziCYqg8f8InwLwqHezkiRHNSph7oZqGv0togId1kMTfKil6gzK0VaSXeVBb4oDl0fQCHiw=="
+  "resolved" "https://registry.npmjs.org/git-cz/-/git-cz-4.9.0.tgz"
+  "version" "4.9.0"
 
 "glob-parent@^5.1.2":
   "integrity" "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow=="
