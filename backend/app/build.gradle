@@ -1,0 +1,14 @@
+springBoot {
+	mainClass = 'org.lawforms.app.LawformApplication'
+}
+
+dependencies {
+	//implementation project(':common')
+	implementation project(':config')
+	implementation project(':docs')
+
+	//implementation 'org.springframework.boot:spring-boot-starter-web'
+	//implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+	//implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+	//implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+}

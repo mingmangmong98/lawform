@@ -1,0 +1,6 @@
+rootProject.name = 'lawform'
+
+include 'app'          // 기존의 main application
+include 'config'       // Spring 설정 관련 (@Configuration, Bean 등) + 서비스, 유틸 등 공통 비즈니스 로직
+//include 'common'       //서비스, 유틸 등 공통 비즈니스 로직
+include 'docs'         //
